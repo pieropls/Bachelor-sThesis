@@ -57,7 +57,8 @@ Interested in contributing to this project? Please read through the existing doc
 
 ## License
 
-This project is not covered under any specific license. However, if you use or refer to any part of this work, please provide appropriate attribution by citing this project and its contributors.
+This project is licensed under the MIT License. If you use or reference this project in your research or work, please credit it by citing:
+-> Piero PELOSI, Work Hours and Income: Effects on Sleep, available on [`GitHub`](https://github.com/pieropls/Work.Hours.and.Income-Effects.on.Sleep).
 
 ## Contact
 
