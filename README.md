@@ -19,31 +19,31 @@ Thank you!
 
 Here’s what you can find in this repository:
 
-##### [`1.Thesis.pdf`](https://github.com/pieropls/Work.Hours.and.Income-Effects.on.Sleep/blob/main/1.Thesis.pdf)
+#### [`1.Thesis.pdf`](https://github.com/pieropls/Work.Hours.and.Income-Effects.on.Sleep/blob/main/1.Thesis.pdf)
 This document is the final written thesis that includes the introduction, literature review, methodology, results, discussion, and conclusion of the study.
 **Highlights:**
 - Examination of sleep pattern disparities based on income and work hours.
 - Analysis of health and productivity impacts due to varying sleep quality and duration.
 
-##### [`2.Code.R`](https://github.com/pieropls/Work.Hours.and.Income-Effects.on.Sleep/blob/main/2.Code.R)
+#### [`2.Code.R`](https://github.com/pieropls/Work.Hours.and.Income-Effects.on.Sleep/blob/main/2.Code.R)
 This file contains all the R scripts used for data analysis in the project. It includes scripts for data cleaning, preprocessing, and detailed statistical modeling using linear regression techniques.
 
-##### [`3.Code.Visual.Rmd.pdf`](https://github.com/pieropls/Work.Hours.and.Income-Effects.on.Sleep/blob/main/3.Code.Visual.Rmd.pdf)
+#### [`3.Code.Visual.Rmd.pdf`](https://github.com/pieropls/Work.Hours.and.Income-Effects.on.Sleep/blob/main/3.Code.Visual.Rmd.pdf)
 A compiled R Markdown document that visualizes the data analysis process and results. This PDF includes both the code and its outputs, such as graphs and tables, providing a visual and technical insight into the findings.
 
-##### [`4.Data.csv`](https://github.com/pieropls/Work.Hours.and.Income-Effects.on.Sleep/blob/main/4.Data.csv)
+#### [`4.Data.csv`](https://github.com/pieropls/Work.Hours.and.Income-Effects.on.Sleep/blob/main/4.Data.csv)
 The raw dataset used in the thesis, formatted as a CSV file. It includes comprehensive time use data from the *US Time Use Study*, which has been analyzed to explore the impact of economic and behavioral factors on sleep.
 
-##### [`5.Data.Explained.pdf`](https://github.com/pieropls/Work.Hours.and.Income-Effects.on.Sleep/blob/main/5.Data.Explained.pdf)
+#### [`5.Data.Explained.pdf`](https://github.com/pieropls/Work.Hours.and.Income-Effects.on.Sleep/blob/main/5.Data.Explained.pdf)
 Documentation of the dataset providing detailed descriptions of each variable used in the analysis. It explains the source, nature, and transformations applied to the dataset for the purposes of this research.
 
-##### [`6.Biblio.pdf`](https://github.com/pieropls/Work.Hours.and.Income-Effects.on.Sleep/blob/main/6.Biblio.pdf)
+#### [`6.Biblio.pdf`](https://github.com/pieropls/Work.Hours.and.Income-Effects.on.Sleep/blob/main/6.Biblio.pdf)
 Contains the academic source utilized throughout the thesis. Ie the foundational paper *"Sleep and the Allocation of Time"* by **Jeff E. Biddle** and **Daniel S. Hamermesh**, Michigan State University.
 
-##### [`7.Final.Presentation.pdf`](https://github.com/pieropls/Work.Hours.and.Income-Effects.on.Sleep/blob/main/7.Final.Presentation.pdf)
+#### [`7.Final.Presentation.pdf`](https://github.com/pieropls/Work.Hours.and.Income-Effects.on.Sleep/blob/main/7.Final.Presentation.pdf)
 Presentation slides for the thesis defense. This document summarizes the research question, methodology, key findings, and the significance of the results in a structured presentation format.
 
-##### [`8.Project.Cover.png`](https://github.com/pieropls/Work.Hours.and.Income-Effects.on.Sleep/blob/main/8.Project.Cover.png)
+#### [`8.Project.Cover.png`](https://github.com/pieropls/Work.Hours.and.Income-Effects.on.Sleep/blob/main/8.Project.Cover.png)
 The AI-generated cover image for the project, used for presentation and promotional purposes. It visually represents the thematic focus of the thesis.
 
 
