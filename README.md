@@ -1,6 +1,6 @@
 # Working Hour and Income: Effects on Sleep
 
-This repository houses a comprehensive collection of documents and code from a bi-disciplinary bachelor's thesis in mathematics and econometrics. This project delves into how work hours and income affect sleep patterns and their subsequent implications on health and productivity. Utilizing linear regressions and R programming, this thesis analyzes data from the US Time Use Study to explore these dynamics.
+This repository houses a collection of documents and code from a bi-disciplinary bachelor's thesis in mathematics and econometrics. This project delves into how work hours and income affect sleep patterns and their subsequent implications on health and productivity. Utilizing linear regressions and R programming, this thesis analyzes data from the US Time Use Study to explore these dynamics.
 
 ## Project Overview
 
