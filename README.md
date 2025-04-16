@@ -1,83 +1,54 @@
-# Working Hour and Income: Effects on Sleep
-
-This repository houses a collection of documents and code from a bi-disciplinary bachelor's thesis in mathematics and econometrics. This project delves into how work hours and income affect sleep patterns and their subsequent implications on health and productivity. Utilizing linear regressions and R programming, this thesis analyzes data from the US Time Use Study to explore these dynamics.
+# Work, Income and Sleep
+<p align="center"><i>Bachelor’s Thesis in Mathematics & Economics</i></p>
 
 ## Project Overview
 
-### Introduction and Motivation
-As our daily lives accelerate and our days stretch longer, sleep—a vital resource—often becomes a luxury that more and more find difficult to afford. Consider this alarming statistic: between 2001 and 2020, the age-adjusted prevalence of diabetes in the United States showed a constant increase, highlighting a public health crisis that coincides with increasingly long and stressful work periods (CDC). Furthermore, the sleep economy, valued at $432 billion in 2019 and expected to reach $585 billion by 2024, reflects a growing recognition of its importance for health and economic efficiency (Statista). The link between lack of sleep and chronic diseases such as diabetes, obesity, and cardiovascular diseases is well-established. According to Our World in Data, global obesity, often linked to insufficient sleep quality, worsens under the effect of long working hours and increasing economic pressure. 
+### Context
 
-The research question we address is both direct and essential: *"How do work hours and income influence sleep, and what are the implications for health and productivity?"* This topic touches us personally. As students in a dual degree in economics and mathematics, we have constantly juggled a tight schedule, where every minute of sleep counted. Our own struggles with shortened nights and overloaded days reflect the experiences of millions of others, underscoring the urgency to understand the balance between professional life and personal well-being.
+<p align="justify">
+This repository gathers the code and documentation for a project I completed during the final year of my <b>bachelor's degree in mathematics and economics</b> at <b>Paris-Saclay University</b>. Although the program didn’t require a formal thesis, this applied research project, part of the dual-degree curriculum, serves as an informal "thesis" tying together both fields through econometrics. The research takes inspiration from the paper <i>"Sleep and the Allocation of Time"</i> by <b>Jeff E. Biddle</b> and <b>Daniel S. Hamermesh</b>, and aims to answer an open question:
+</p>
 
-### Contributors and Supervision
+<p align="center"><i>How do working hours and income influence sleep, and what are the implications for health and productivity?</i></p>
 
-Contributors: A. AUGÉ. Supervision: Professor C. LELARGE. 
-Thank you!
+<p align="justify">
+To dig into this, I used data from the <b>US Time Use Study</b> and built a set of <b>linear regression models in R</b> to explore how work schedules and economic pressure might shape the way we sleep and what that means for well-being and efficiency.
+</p>
 
+### Motivation
+
+<p align="justify">
+Sleep is something we all need, but somehow never get enough of, especially when life gets busy. As our daily lives speed up and our schedules get tighter, sleep increasingly feels like a luxury. And it's not just about feeling tired. Between 2001 and 2020, the age-adjusted prevalence of diabetes in the U.S. kept rising (CDC), highlighting a broader public health issue tied to long work hours, stress, and the erosion of rest.
+<br><br>
+Meanwhile, the so-called <i>sleep economy</i> was worth $432 billion in 2019 and is projected to reach $585 billion by 2024 (Statista). That number says a lot: sleep isn’t just a personal matter, it’s a societal one, with real economic stakes. The health consequences of chronic sleep deprivation are well-documented. Obesity, cardiovascular disease, diabetes, all of them have been linked to poor sleep quality or duration. According to <i>Our World in Data</i>, the global obesity crisis is getting worse, and lack of rest, driven by economic pressure and long workdays, is part of the problem.
+<br><br>
+On a more personal note: as a student juggling a demanding dual major, I’ve lived through what it means to trade sleep for productivity. Long nights, early alarms, never quite enough time. That experience, paired with everything the data says, made this project feel both relevant and urgent. So this report is more than just an academic exercise. It’s a mix of curiosity, real-life experience, and a desire to better understand how work, money, and rest fit together and how that balance (or imbalance) shapes our health and efficiency.
+</p>
+
+### Contributors & Supervision
+
+- **Contributor:** A. Augé  
+- **Supervisor:** Professor C. Lelarge
 
 ## Repository Structure
 
 ```
 Work.Sleep.Income/
 │
-├── code.R                         # R script for data cleaning, preprocessing, and regression analysis
+├── Code.R                         # R script
 │
-├── paper&data/                    # Main dataset and related documentation
+├── paper&data/
 │   ├── data.csv                   # Raw data from US Time Use Study
 │   ├── data-explained.pdf         # Documentation of dataset variables and structure
 │   ├── paper.pdf                  # Foundational paper: “Sleep and the Allocation of Time”
 │   └── cover.png                  # AI-generated project cover image
 │
-├── thesis/                        # Thesis documents and visual outputs
-│   ├── thesis.pdf                 # Final written thesis with full analysis and conclusions
-│   ├── rmd-code-visual.pdf        # Rendered R Markdown showing analysis code and results
-│   └── presentation.pdf           # Slide deck for thesis defense summarizing key insights
+├── thesis/
+│   ├── thesis.pdf                 # Final written thesis
+│   ├── rmd-code-visual.pdf        # Rendered R Markdown
+│   └── presentation.pdf           # Slide deck for thesis defense
 ```
-
-Here’s what you can find in this repository:
-
-#### [`1.Thesis.pdf`](https://github.com/pieropls/Work.Hours.and.Income-Effects.on.Sleep/blob/main/1.Thesis.pdf)
-This document is the final written thesis that includes the introduction, literature review, methodology, results, discussion, and conclusion of the study.
-**Highlights:**
-- Examination of sleep pattern disparities based on income and work hours.
-- Analysis of health and productivity impacts due to varying sleep quality and duration.
-
-#### [`2.Code.R`](https://github.com/pieropls/Work.Hours.and.Income-Effects.on.Sleep/blob/main/2.Code.R)
-This file contains all the R scripts used for data analysis in the project. It includes scripts for data cleaning, preprocessing, and detailed statistical modeling using linear regression techniques.
-
-#### [`3.Code.Visual.Rmd.pdf`](https://github.com/pieropls/Work.Hours.and.Income-Effects.on.Sleep/blob/main/3.Code.Visual.Rmd.pdf)
-A compiled R Markdown document that visualizes the data analysis process and results. This PDF includes both the code and its outputs, such as graphs and tables, providing a visual and technical insight into the findings.
-
-#### [`4.Data.csv`](https://github.com/pieropls/Work.Hours.and.Income-Effects.on.Sleep/blob/main/4.Data.csv)
-The raw dataset used in the thesis, formatted as a CSV file. It includes comprehensive time use data from the *US Time Use Study*, which has been analyzed to explore the impact of economic and behavioral factors on sleep.
-
-#### [`5.Data.Explained.pdf`](https://github.com/pieropls/Work.Hours.and.Income-Effects.on.Sleep/blob/main/5.Data.Explained.pdf)
-Documentation of the dataset providing detailed descriptions of each variable used in the analysis. It explains the source, nature, and transformations applied to the dataset for the purposes of this research.
-
-#### [`6.Biblio.pdf`](https://github.com/pieropls/Work.Hours.and.Income-Effects.on.Sleep/blob/main/6.Biblio.pdf)
-Contains the academic source utilized throughout the thesis. Ie the foundational paper *"Sleep and the Allocation of Time"* by **Jeff E. Biddle** and **Daniel S. Hamermesh**, Michigan State University.
-
-#### [`7.Final.Presentation.pdf`](https://github.com/pieropls/Work.Hours.and.Income-Effects.on.Sleep/blob/main/7.Final.Presentation.pdf)
-Presentation slides for the thesis defense. This document summarizes the research question, methodology, key findings, and the significance of the results in a structured presentation format.
-
-#### [`8.Project.Cover.png`](https://github.com/pieropls/Work.Hours.and.Income-Effects.on.Sleep/blob/main/8.Project.Cover.png)
-The AI-generated cover image for the project, used for presentation and promotional purposes. It visually represents the thematic focus of the thesis.
-
-
-## Usage
-
-The R scripts can be run to reproduce the analysis presented in the thesis. The dataset [`4.Data.csv`](link-to-data-on-github) must be in the same directory as the scripts for them to run correctly.
-
-## Contributing
-
-Interested in contributing to this project? Please read through the existing documents and understand the data and analysis before proposing changes or additions.
 
 ## License
 
-This project is licensed under the MIT License. If you use or reference this project in your research or work, please credit it by citing:
-
-→ Piero PELOSI, Work Hours and Income: Effects on Sleep, available on [`GitHub`](https://github.com/pieropls/Work.Hours.and.Income-Effects.on.Sleep).
-
-## Contact
-
-For any further inquiries or possible collaborations, feel free to contact me on [`LinkedIn`](https://www.linkedin.com/in/piero-pelosi/).
+This project is licensed under the terms of the [MIT License](./LICENSE).
