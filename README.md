@@ -17,6 +17,23 @@ Thank you!
 
 ## Repository Structure
 
+```
+Work.Sleep.Income/
+│
+├── code.R                         # R script for data cleaning, preprocessing, and regression analysis
+│
+├── paper&data/                    # Main dataset and related documentation
+│   ├── data.csv                   # Raw data from US Time Use Study
+│   ├── data-explained.pdf         # Documentation of dataset variables and structure
+│   ├── paper.pdf                  # Foundational paper: “Sleep and the Allocation of Time”
+│   └── cover.png                  # AI-generated project cover image
+│
+├── thesis/                        # Thesis documents and visual outputs
+│   ├── thesis.pdf                 # Final written thesis with full analysis and conclusions
+│   ├── rmd-code-visual.pdf        # Rendered R Markdown showing analysis code and results
+│   └── presentation.pdf           # Slide deck for thesis defense summarizing key insights
+```
+
 Here’s what you can find in this repository:
 
 #### [`1.Thesis.pdf`](https://github.com/pieropls/Work.Hours.and.Income-Effects.on.Sleep/blob/main/1.Thesis.pdf)
