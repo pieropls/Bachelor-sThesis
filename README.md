@@ -1,7 +1,7 @@
 # Work, Income & Sleep
 <p align="center"><i>Bachelor’s Thesis in Mathematics & Economics</i></p>
 
-## Project overview
+## Project Overview
 
 ### Context
 
@@ -25,7 +25,7 @@ Meanwhile, the so-called <i>sleep economy</i> was worth $432 billion in 2019 and
 On a more personal note: as a student juggling a demanding dual major, I’ve lived through what it means to trade sleep for productivity. Long nights, early alarms, never quite enough time. That experience, paired with everything the data says, made this project feel both relevant and urgent. So this report is more than just an academic exercise. It’s a mix of curiosity, real-life experience, and a desire to better understand how work, money, and rest fit together and how that balance (or imbalance) shapes our health and efficiency.
 </p>
 
-### Contributors & supervision
+### Contributors & Supervision
 
 - **Contributor:** A. Augé  
 - **Supervisor:** Professor C. Lelarge
