@@ -21,7 +21,7 @@ library(forcats)
 ########## 1 - Chargement des données et transformation des variables ##########
 ################################################################################
 
-df <- read.csv("6.Data.csv", sep = ",", header = TRUE)
+df <- read.csv("/paper&data/data.csv", sep = ",", header = TRUE)
 
 # Prétraitement et transformation des variables pour une analyse approfondie
 df <- df %>%
